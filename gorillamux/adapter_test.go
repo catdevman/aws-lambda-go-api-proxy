@@ -3,11 +3,11 @@ package gorillamux_test
 import (
 	"context"
 	"fmt"
-	"github.com/awslabs/aws-lambda-go-api-proxy/core"
+	"github.com/catdevman/aws-lambda-go-api-proxy/core"
 	"net/http"
 
 	"github.com/aws/aws-lambda-go/events"
-	"github.com/awslabs/aws-lambda-go-api-proxy/gorillamux"
+	"github.com/catdevman/aws-lambda-go-api-proxy/gorillamux"
 	"github.com/gorilla/mux"
 
 	. "github.com/onsi/ginkgo"
